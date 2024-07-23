@@ -1,0 +1,26 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+
+# Output of the build process
+main
+bootstrap
+function.zip
+
+# Vendor directory for Go modules
+vendor/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment variables file
+.env
+
+# System specific files
+.DS_Store
