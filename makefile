@@ -9,7 +9,7 @@ all: clean build zip
 
 # Build the Go executable
 build:
-	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -o $(EXECUTABLE)
+	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -o $(EXECUTABLE) ./cmd/lambda
 
 # Zip the executable
 zip: build
